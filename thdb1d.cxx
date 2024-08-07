@@ -49,6 +49,7 @@
 #include "loch/lxMath.h"
 #include "thcsdata.h"
 #include "thgeomagdata.h"
+#include "therion.h"
 #include "QuickHull.hpp"
 
 //#define THUSESVX
@@ -3610,6 +3611,14 @@ thdb3ddata * thdb1ds::get_3d_outline() {
 
 	return &(this->d3_outline);
 
+}
+
+const char * thdb1ds::get_label() const {
+  const char * label = this->comment;
+  if (!label || !label[0]) {
+    label = this->name;
+  }
+  return label;
 }
 
 void thdb1d_tree_node::push_back_arrow(thdb1d_tree_arrow * arrow) {
