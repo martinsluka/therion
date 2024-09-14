@@ -32,7 +32,6 @@
 #include "thobjectid.h"
 #include "thexception.h"
 #include "thdata.h"
-#include "thparse.h"
 #include "thdatastation.h"
 #include "thlookup.h"
 #include "thgrade.h"
@@ -51,6 +50,7 @@
 #include "thendscrap.h"
 #include "thconfig.h"
 #include "thproj.h"
+#include "therion.h"
 
 
 const char * thlibrarydata_init_text =

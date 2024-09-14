@@ -26,7 +26,6 @@
  */
 
 #include "thsymbolset.h"
-#include "thparse.h"
 #include "thpoint.h"
 #include "thline.h"
 #include "tharea.h"
@@ -44,6 +43,7 @@
 #include "thlogfile.h"
 #include "thepsparse.h"
 #include "thdatabase.h"
+#include "therion.h"
 #include <fmt/printf.h>
 
 thsymbolset::thsymbolset()

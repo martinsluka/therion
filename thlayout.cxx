@@ -30,7 +30,6 @@
 #include "thexception.h"
 #include "thchenc.h"
 #include "thtfangle.h"
-#include "thparse.h"
 #include "thinfnan.h"
 #include "thpdfdata.h"
 #include "thsymbolset.h"
@@ -40,6 +39,7 @@
 #include "thconfig.h"
 #include "th2ddataobject.h"
 #include "thdatabase.h"
+#include "therion.h"
 #include <string.h>
 #include <filesystem>
 #include <algorithm>
