@@ -68,3 +68,4 @@ extern/fmt/cmake_install.cmake
 build/
 rel_notes.md
 .DS_Store
+.DS_Store
